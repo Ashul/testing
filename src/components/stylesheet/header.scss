@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+$navy-blue:#013243;
+
+
+Header{
+  font-family: 'Roboto', sans-serif;
+  width:100%;
+  background:$navy-blue;
+
+  .offer-section{
+    position:relative;
+    width: 60%;
+    top:10px;
+    left:50px;
+    padding:20px;
+    color:#fff;
+    overflow: hidden;
+    height:10px;
+    font-weight:bold;
+    font-size:14px;
+
+  }
+  nav{
+    width:100%;
+    padding:30px 20px;
+
+    .badge{
+      positon:relative;
+      top:-40px;
+      background:#1E6B7B;
+    }
+
+  }
+}
